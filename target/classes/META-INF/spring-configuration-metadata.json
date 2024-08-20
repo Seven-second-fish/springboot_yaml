@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.hkd.pojo.Person",
+      "sourceType": "com.hkd.pojo.Person"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.hkd.config.DruidConfig",
+      "sourceMethod": "druidDataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hkd.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.hkd.pojo.Person"
+    }
+  ],
+  "hints": []
+}
